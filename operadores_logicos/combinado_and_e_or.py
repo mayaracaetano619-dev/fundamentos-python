@@ -5,7 +5,7 @@ def posso_entrar_no_show_do_veigh():
     idade = int(input("Qual a sua idade? "))
     nome_esta_na_lista = bool(input('Seu nome está na lista? '))
 
-    posso_entrar = idade >= 18 and nome_esta_na_lista or POSSUI_INGRESSO
+    posso_entrar = (nome_esta_na_lista or POSSUI_INGRESSO) and idade >= 18
 
     print(f'Vou conseguir entrar no show? {posso_entrar}')
 
