@@ -6,4 +6,5 @@ def posso_comprar():
     autorizado = tem_dinheiro or TEM_CARTAO
     print(f'Vou comer um MC-Donalds hoje? {autorizado}')
 
+
 posso_comprar()
