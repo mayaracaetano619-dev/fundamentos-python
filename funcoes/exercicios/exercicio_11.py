@@ -7,4 +7,5 @@ def salario():
     print(f'O salário é: R$ {salario:}')
 
 
+
 salario()
