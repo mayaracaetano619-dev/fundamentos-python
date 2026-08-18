@@ -1,4 +1,5 @@
 def login():
+    print('-----LOGIN-----')
     usuario = input('Digite o usuário: ')
     senha = input('Digite a senha: ')
 

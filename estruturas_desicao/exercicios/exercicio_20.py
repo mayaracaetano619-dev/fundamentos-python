@@ -11,5 +11,4 @@ def banco():
         print('Saque realizado com sucesso!')
         print(f'Novo saldo: R$ {novo_saldo}')
 
-
 banco()

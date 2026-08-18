@@ -1,5 +1,5 @@
 def login():
-    print('-----Login-----')
+    print('-----LOGIN-----')
     senha = input('Digite a senha: ')
 
     if senha == 'python123':

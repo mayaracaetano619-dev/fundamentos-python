@@ -8,5 +8,4 @@ def radar():
     else:
         print('Multa por excesso de velocidade')
 
-
 radar()

@@ -8,5 +8,4 @@ def clima():
     else:
         print('Quente')
 
-
 clima()
