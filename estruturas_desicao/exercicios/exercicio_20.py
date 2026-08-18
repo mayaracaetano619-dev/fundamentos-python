@@ -1,4 +1,4 @@
-def saldo():
+def banco():
     saldo = float(input('Digite o saldo disponível: R$ '))
     saque = float(input('Digite o valor que deseja sacar: R$ '))
 
@@ -12,4 +12,4 @@ def saldo():
         print(f'Novo saldo: R$ {novo_saldo}')
 
 
-saldo()
+banco()

@@ -1,4 +1,4 @@
-def idade():
+def verificar_idade():
     idade = int(input('Digite sua idade: '))
 
     if idade < 18:
@@ -7,4 +7,4 @@ def idade():
         print('Maior de idade')
 
 
-idade()
+verificar_idade()

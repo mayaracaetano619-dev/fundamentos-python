@@ -1,4 +1,4 @@
-def velocidade():
+def radar():
     velocidade = int(input('Digite a velocidade do veículo em km/h: '))
 
     if velocidade <= 60:
@@ -9,4 +9,4 @@ def velocidade():
         print('Multa por excesso de velocidade')
 
 
-velocidade()
+radar()

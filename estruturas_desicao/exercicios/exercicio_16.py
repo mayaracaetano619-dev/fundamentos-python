@@ -1,4 +1,4 @@
-def realizar_login():
+def login():
     usuario = input('Digite o usuário: ')
     senha = input('Digite a senha: ')
 
@@ -10,4 +10,4 @@ def realizar_login():
         print('Login realizado com sucesso')
 
 
-realizar_login()
+login()

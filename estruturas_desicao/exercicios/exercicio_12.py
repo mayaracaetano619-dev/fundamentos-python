@@ -1,4 +1,4 @@
-def senha():
+def login():
     print('-----Login-----')
     senha = input('Digite a senha: ')
 
@@ -7,5 +7,4 @@ def senha():
     else:
         print('Senha inválida')
 
-
-senha()
+login()

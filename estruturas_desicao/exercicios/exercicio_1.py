@@ -1,4 +1,4 @@
-def verificacao():
+def verificar():
     numero = int(input('Digite um número inteiro: '))
 
     if numero > 0:
@@ -9,4 +9,4 @@ def verificacao():
         print('O número é igual a zero.')
 
 
-verificacao()
+verificar()

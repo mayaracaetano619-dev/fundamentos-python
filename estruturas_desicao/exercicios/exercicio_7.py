@@ -1,4 +1,4 @@
-def temperatura():
+def clima():
     temperatura = float(input('Digite a temperatura em Celsius: '))
 
     if temperatura < 15:
@@ -9,4 +9,4 @@ def temperatura():
         print('Quente')
 
 
-temperatura()
+clima()

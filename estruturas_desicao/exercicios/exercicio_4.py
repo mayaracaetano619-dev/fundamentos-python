@@ -1,4 +1,4 @@
-def nota():
+def reprovado_aprovado():
     nota = float(input('Digite a nota do aluno: '))
 
     if nota >= 6:
@@ -7,4 +7,4 @@ def nota():
         print('Reprovado')
 
 
-nota()
+reprovado_aprovado()
