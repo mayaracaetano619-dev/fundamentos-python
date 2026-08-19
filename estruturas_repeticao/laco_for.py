@@ -48,4 +48,4 @@ def laco_alinhado():
         for nota in notas:
             print(f'Nota do aluno: {nota}')
 
-laco_alinhado()
+# laco_alinhado()
