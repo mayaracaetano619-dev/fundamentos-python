@@ -10,8 +10,7 @@ def maior_numero():
 
         continuar = input("Deseja continuar? (s/n): ")
 
-    return maior
+    print(f"O maior número foi: {maior}")
 
-resultado = maior_numero()
 
-print("Maior número:", resultado)
+maior_numero()
