@@ -94,3 +94,41 @@ def gerenciar_notas(notas, nova_nota):
 notas_ordenadas, media = gerenciar_notas(notas_semestre, 3.5)
 print(f'notas ordenadas: {notas_ordenadas}')
 print(f'media: {media}')
+
+# lista de LIstas
+def adicionar_produtos(produtos, produto):
+    produtos.append(produto)
+    print(f'Minha lista de produtos: {produtos[0][2]}')
+
+
+lista_produtos = [
+    ["Arroz", 2, 32.00],
+    ['Feijão', 3, 8.50]
+]
+novo_produto = ['Café', 2, 28.00]
+adicionar_produtos(lista_produtos, novo_produto)
+
+
+def quantidade_total_produtos(produtos):
+    quantidades =[]
+
+    for produto in produtos:
+        quantidades.append(produto[1])
+
+    return sum(quantidades)
+
+quantidade_produtos = quantidade_total_produtos(lista_produtos)
+print(f'Quantidade total de produtos: {quantidade_produtos}')
+
+
+def valor_total_produtos(produtos):
+    valores = []
+
+    for produto in produtos:
+        valor = produto[1] * produto[2]
+        valores.append(valor)
+
+    return sum(valores)
+
+preco_total_produtos = valor_total_produtos(lista_produtos)
+print(f'O valor total dos produtos é: {preco_total_produtos}')
